@@ -1,0 +1,446 @@
+.header {
+  .logo {
+    float: left;
+    width: 45rem;
+    padding: 3rem;
+
+    animation: moveInRight 0.8s;
+  }
+}
+
+.main-image {
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.location-section {
+  padding: 10rem 2rem;
+  text-align: center;
+
+  @include respond(phone) {
+    padding: 7rem 1rem;
+  }
+
+  &__text {
+    font-size: 5rem;
+
+    // @include respond(small-desktop) {
+    //   font-size: 7rem;
+    // }
+
+    // @include respond(tab-land) {
+    //   font-size: 7rem;
+    // }
+    @include respond(mini-desktop) {
+      font-size: 4rem;
+    }
+    @include respond(phone) {
+      font-size: 2.1rem;
+    }
+  }
+
+  &__title {
+    display: flex;
+    margin: 5rem auto -1rem;
+    width: fit-content;
+    transition: all 0.2s;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+
+    @include respond(phone) {
+      margin: 2rem auto 0;
+    }
+
+    // &:hover h2 {
+    //   filter: drop-shadow(0 0 0.6rem #000);
+    //   transform: scale(1.03);
+    // }
+    // &:hover .color-blue {
+    //   filter: drop-shadow(0 0 0.6rem #5ac5d9);
+    //   transform: scale(1.03);
+    // }
+
+    & h2 {
+      font-size: 10rem;
+      font-weight: 900;
+      margin: 0 1rem;
+      //   transition: all 0.2s;
+
+      @include respond(mini-desktop) {
+        font-size: 8.2rem;
+      }
+
+      @include respond(phone) {
+        font-size: 4rem;
+      }
+      @include respond(phone-small) {
+        font-size: 3rem;
+      }
+
+      &.color-blue {
+        color: $color-secondary;
+      }
+    }
+  }
+}
+
+.contact-us-section {
+  padding: 6rem 0;
+
+  & p {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  &-title {
+    font-size: 4rem;
+    text-align: center;
+  }
+  &#grey {
+    background-color: $color-grey-light-1;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  margin: auto;
+  @include respond(phone) {
+    width: 90vw;
+  }
+
+  &-input {
+    @include inputBasic;
+    color: $color-secondary;
+    &:focus {
+      outline: 0;
+    }
+
+    &:hover::placeholder {
+      color: $color-secondary;
+    }
+  }
+  &-submit {
+    position: relative;
+    height: 8rem;
+    border: none;
+    border-radius: 10rem;
+    margin: 2rem 0;
+    padding: 0 2rem;
+    font-size: 3.5rem;
+    color: $color-white;
+    background-color: $color-secondary;
+    width: 50%;
+    align-self: center;
+    margin-top: 9rem;
+    transition: all 0.5s;
+
+    @include shine($color-secondary);
+    &:hover {
+      @include buttonHover;
+    }
+  }
+
+  &-bottom {
+    display: flex;
+    // height: 800px;
+    .left {
+      width: 70%;
+      text-align: center;
+      margin-left: 11rem;
+      padding-top: 7rem;
+      @include respond(mini-desktop) {
+        margin-left: 5rem;
+      }
+
+      @include respond(phone) {
+        width: 100%;
+      }
+    }
+    .right {
+      width: 30%;
+      @include respond(mini-desktop) {
+        width: 45%;
+      }
+      @include respond(tab-land) {
+        width: 50%;
+      }
+
+      @include respond(phone-small) {
+        font-size: 3rem;
+      }
+
+      .smiley.inline-photo {
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s;
+        will-change: transform;
+      }
+
+      .smiley.inline-photo.is-visible {
+        transform: translateX(0%);
+      }
+    }
+
+    &-input {
+      @include inputBasic;
+      color: $color-black;
+      background-color: $color-primary-part-transparent;
+      &:focus {
+        outline: 0;
+      }
+
+      &::placeholder {
+        color: $color-primary-dark;
+      }
+
+      &:hover::placeholder {
+        color: $color-black;
+      }
+    }
+    &-submit {
+      position: relative;
+      height: 8rem;
+      border: none;
+      border-radius: 10rem;
+      margin: 2rem 0;
+      padding: 0 2rem;
+      font-size: 3.5rem;
+      color: $color-white;
+      background-color: $color-primary-dark;
+      width: 50%;
+      align-self: center;
+      margin-top: 9rem;
+      transition: all 0.5s;
+      @include shine($color-primary-dark);
+
+      &:hover {
+        @include buttonHover;
+      }
+    }
+  }
+}
+
+.about-setion {
+  padding: 10rem 7rem;
+  @include respond(phone) {
+    padding: 10rem 2rem;
+  }
+
+  &__info {
+    margin: auto;
+    font-size: 3rem;
+    min-width: 90rem;
+    max-width: 120rem;
+
+    @include respond(phone) {
+      text-align: center;
+      font-size: 2.5rem;
+      min-width: 0;
+      max-width: 95vw;
+    }
+
+    &:first-child {
+      margin-bottom: 7rem;
+    }
+
+    &:hover &-title {
+      background-position: 0 -100%;
+    }
+    &-title {
+      position: relative;
+      display: inline-block;
+      font-weight: 900;
+      margin: 2rem 0px;
+      color: $color-primary-dark;
+      background: linear-gradient(
+        to right,
+        $color-primary-dark,
+        $color-primary-dark 50%,
+        black 50%
+      );
+      background-clip: text;
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% 100%;
+      background-position: -100%;
+      overflow: hidden;
+      transition: background-position 275ms ease;
+      text-decoration: none; // text decorations are clipped in WebKit browsers
+    }
+  }
+}
+
+.pros-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem 7rem 12rem;
+  background-color: $color-black;
+  color: $color-white;
+  overflow: auto;
+
+  @include respond(phone) {
+    background-color: $color-grey-light-1;
+    color: $color-black;
+    padding: 6rem 1rem;
+  }
+
+  &:hover > &-title {
+    // filter: drop-shadow(0 0 0.5rem #5ac5d9);
+    animation: border-flicker 2s linear infinite;
+  }
+
+  &-title {
+    color: $color-primary-dark;
+    font-size: 9rem;
+    margin-bottom: 4rem;
+    @include respond(small-desktop) {
+      font-size: 7rem;
+    }
+
+    @include respond(tab-land) {
+      font-size: 7rem;
+    }
+    @include respond(mini-desktop) {
+      font-size: 5rem;
+    }
+
+    @include respond(phone) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+      display: flex;
+      align-items: center;
+      position: relative;
+      margin: 1rem 0;
+      float: left;
+      text-align: center;
+
+      font-size: 4.5rem;
+
+      @include respond(small-desktop) {
+        font-size: 3.2rem;
+      }
+
+      @include respond(tab-land) {
+        font-size: 3rem;
+      }
+
+      @include respond(mini-desktop) {
+        font-size: 2.5rem;
+      }
+
+      @include respond(phone) {
+        margin: 0;
+        flex-direction: column-reverse;
+        font-size: 2.6rem;
+        &:last-child &-smile-outer {
+          display: none;
+        }
+      }
+
+      &:hover &-smile-inner {
+        color: $color-primary-dark;
+      }
+      &:hover &-smile-outer {
+        transform: rotate(-25deg);
+      }
+
+      &-smile-outer {
+        position: relative;
+        width: 6rem;
+        height: 3rem;
+        overflow: hidden;
+        background-color: black;
+        margin-left: 5rem;
+        transition: all 0.2s;
+
+        @include respond(mini-desktop) {
+          width: 4rem;
+          height: 2rem;
+        }
+
+        @include respond(phone) {
+          width: 5rem;
+          height: 2.5rem;
+
+          margin: 1rem 0;
+          background-color: $color-grey-light-1;
+          color: $color-white;
+        }
+      }
+      &-smile-inner {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        box-sizing: border-box;
+        border: 10px solid;
+        transition: all 0.2s;
+        @include respond(mini-desktop) {
+          width: 4rem;
+          height: 4rem;
+          border: 6px solid;
+        }
+        @include respond(phone) {
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  width: 50%;
+  margin-top: -10px;
+  margin-right: auto;
+
+  margin-bottom: 6rem;
+
+  @include respond(phone) {
+    width: 100vw;
+    margin-bottom: 2rem;
+    display: flex;
+  }
+
+  &-logo {
+    @include respond(phone) {
+      width: 56%;
+      object-fit: contain;
+    }
+  }
+
+  .smiley {
+    @include respond(phone) {
+      width: 40%;
+      object-fit: contain;
+    }
+  }
+}
+
+.desktop {
+  display: block;
+
+  @include respond(phone) {
+    display: none;
+  }
+}
+.mobile {
+  display: none;
+  @include respond(phone) {
+    display: block;
+  }
+}
