@@ -277,12 +277,12 @@
 
         return (
           (rect.top + onScreenFromElementTop <= 0 && rect.bottom >= 0) ||
-          (rect.bottom >=
+          (rect.bottom + onScreenFromElementTop >=
             (window.innerHeight || document.documentElement.clientHeight) &&
             rect.top + onScreenFromElementTop <=
               (window.innerHeight || document.documentElement.clientHeight)) ||
           (rect.top + onScreenFromElementTop >= 0 &&
-            rect.bottom <=
+            rect.bottom + onScreenFromElementTop <=
               (window.innerHeight || document.documentElement.clientHeight))
         )
       }
