@@ -17,7 +17,10 @@
   width: 100%;
   overflow-y: hidden;
   font-size: 5rem;
-  @include respond(mini-desktop) {
+  // @include respond(mini-desktop) {
+  //   font-size: 4rem;
+  // }
+  @include respond(tab-land) {
     font-size: 4rem;
   }
 
