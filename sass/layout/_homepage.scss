@@ -9,8 +9,58 @@
 }
 
 .main-image {
+  font-family: 'adoveFnt22-bold';
+  position: relative;
   width: 100%;
   overflow-y: hidden;
+  font-size: 5rem;
+  @include respond(mini-desktop) {
+    font-size: 4rem;
+  }
+
+  .whiteBackground {
+    background-color: $color-white;
+    padding: 0 0.5rem;
+  }
+  .mainColor-Background {
+    background-color: $color-primary;
+    padding: 0 0.5rem;
+  }
+
+  &__top-text {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    top: 10%;
+    right: 50%;
+    transform: translate(50%, 0);
+    width: fit-content;
+    @include respond(mini-desktop) {
+      flex-direction: column;
+      top: 5%;
+      line-height: 6rem;
+    }
+    @include respond(phone) {
+      line-height: 4rem;
+      font-size: 3rem;
+    }
+  }
+  &__bottom-text {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    bottom: 10%;
+    right: 50%;
+    transform: translate(50%, 0);
+    width: fit-content;
+    @include respond(mini-desktop) {
+      line-height: 6rem;
+    }
+    @include respond(phone) {
+      line-height: 4rem;
+      font-size: 3rem;
+    }
+  }
 }
 
 .location-section {
@@ -22,7 +72,8 @@
   }
 
   &__text {
-    font-size: 5rem;
+    font-size: 7rem;
+    line-height: 9rem;
 
     // @include respond(small-desktop) {
     //   font-size: 7rem;
@@ -33,15 +84,18 @@
     // }
     @include respond(mini-desktop) {
       font-size: 4rem;
+      line-height: 5rem;
     }
     @include respond(phone) {
-      font-size: 2.1rem;
+      font-size: 3rem;
+      line-height: 4rem;
     }
   }
 
   &__title {
+    font-family: 'adoveFnt22-ultrabold';
     display: flex;
-    margin: 5rem auto -1rem;
+    margin: 2rem auto -3rem;
     width: fit-content;
     transition: all 0.2s;
 
@@ -63,7 +117,7 @@
     // }
 
     & h2 {
-      font-size: 10rem;
+      font-size: 14rem;
       font-weight: 900;
       margin: 0 1rem;
       //   transition: all 0.2s;
@@ -87,16 +141,37 @@
 }
 
 .contact-us-section {
-  padding: 6rem 0;
+  font-family: 'adoveFnt22-bold';
+  padding: 6rem 0 6rem;
+  @include respond(phone) {
+    padding: 8rem 0;
+  }
 
   & p {
-    font-size: 5rem;
-    margin-bottom: 3rem;
+    font-size: 6rem;
+    margin-bottom: 4rem;
+    @include respond(phone) {
+      font-size: 3.5rem;
+      margin-bottom: 2rem;
+    }
   }
 
   &-title {
     font-size: 4rem;
     text-align: center;
+
+    &-head {
+      font-size: 7rem;
+      margin-bottom: 3rem;
+      text-align: center;
+      @include respond(phone) {
+        font-size: 4rem;
+        line-height: 5rem;
+        margin: auto;
+        margin-bottom: 0rem;
+        text-align: center;
+      }
+    }
   }
   &#grey {
     background-color: $color-grey-light-1;
@@ -108,12 +183,19 @@
   width: 60rem;
   margin: auto;
   @include respond(phone) {
-    width: 90vw;
+    width: 85vw;
   }
 
   &-input {
     @include inputBasic;
     color: $color-secondary;
+
+    @include respond(phone) {
+      height: 7rem;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
     &:focus {
       outline: 0;
     }
@@ -123,19 +205,25 @@
     }
   }
   &-submit {
+    font-family: 'adoveFnt22-bold';
     position: relative;
-    height: 8rem;
+    height: 10rem;
     border: none;
     border-radius: 10rem;
     margin: 2rem 0;
     padding: 0 2rem;
-    font-size: 3.5rem;
+    font-size: 5rem;
     color: $color-white;
     background-color: $color-secondary;
     width: 50%;
     align-self: center;
     margin-top: 9rem;
     transition: all 0.5s;
+    @include respond(phone) {
+      height: 7rem;
+      font-size: 3rem;
+      margin-top: 5rem;
+    }
 
     @include shine($color-secondary);
     &:hover {
@@ -149,7 +237,7 @@
     .left {
       width: 70%;
       text-align: center;
-      margin-left: 11rem;
+      margin-left: 0rem;
       padding-top: 7rem;
       @include respond(mini-desktop) {
         margin-left: 5rem;
@@ -207,13 +295,14 @@
       }
     }
     &-submit {
+      font-family: 'adoveFnt22-bold';
       position: relative;
-      height: 8rem;
+      height: 10rem;
       border: none;
       border-radius: 10rem;
       margin: 2rem 0;
       padding: 0 2rem;
-      font-size: 3.5rem;
+      font-size: 5rem;
       color: $color-white;
       background-color: $color-primary-dark;
       width: 50%;
@@ -221,6 +310,13 @@
       margin-top: 9rem;
       transition: all 0.5s;
       @include shine($color-primary-dark);
+
+      @include respond(phone) {
+        height: 8rem;
+        width: 60%;
+        margin-top: 6rem;
+        font-size: 4rem;
+      }
 
       &:hover {
         @include buttonHover;
@@ -232,14 +328,18 @@
 .about-setion {
   padding: 10rem 7rem;
   @include respond(phone) {
-    padding: 10rem 2rem;
+    padding: 10rem 4rem;
   }
 
   &__info {
     margin: auto;
-    font-size: 3rem;
+    font-size: 4rem;
     min-width: 90rem;
     max-width: 120rem;
+
+    @include respond(mini-desktop) {
+      min-width: 0;
+    }
 
     @include respond(phone) {
       text-align: center;
@@ -256,10 +356,11 @@
       background-position: 0 -100%;
     }
     &-title {
+      font-family: 'adoveFnt22-bold';
+
+      font-size: 4rem;
       position: relative;
       display: inline-block;
-      font-weight: 900;
-      margin: 2rem 0px;
       color: $color-primary-dark;
       background: linear-gradient(
         to right,
@@ -276,6 +377,14 @@
       overflow: hidden;
       transition: background-position 275ms ease;
       text-decoration: none; // text decorations are clipped in WebKit browsers
+    }
+
+    &-text {
+      width: 100%;
+      @include respond(phone) {
+        font-size: 2.5rem;
+        line-height: 4rem;
+      }
     }
   }
 }
@@ -301,6 +410,7 @@
   }
 
   &-title {
+    font-family: 'adoveFnt22-bold';
     color: $color-primary-dark;
     font-size: 9rem;
     margin-bottom: 4rem;
@@ -312,17 +422,25 @@
       font-size: 7rem;
     }
     @include respond(mini-desktop) {
+      font-size: 7rem;
+    }
+    @include respond(tab-port) {
       font-size: 5rem;
     }
 
     @include respond(phone) {
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
   }
 
   &-list {
     display: flex;
     flex-direction: column;
+    @include respond(phone) {
+      display: flex;
+      flex-direction: column;
+      padding: 0 8rem;
+    }
 
     &__item {
       display: flex;
@@ -335,7 +453,7 @@
       font-size: 4.5rem;
 
       @include respond(small-desktop) {
-        font-size: 3.2rem;
+        font-size: 3.5rem;
       }
 
       @include respond(tab-land) {

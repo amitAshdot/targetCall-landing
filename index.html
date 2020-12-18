@@ -11,6 +11,7 @@
     />
     <title>Targetcall - Jobs</title>
   </head>
+
   <body>
     <header class="header">
       <img class="logo" src="images/logo.png" alt="Logo" />
@@ -18,18 +19,33 @@
     <main>
       <!-- MAIN HEADER START -->
       <div class="main-image">
+        <div class="main-image__top-text">
+          <h2 class="main-image__top-text-right">גם אתם מרגישים שזו</h2>
+          <h2 class="main-image__top-text-left whiteBackground">
+            זכות לתת שירות?￼
+          </h2>
+        </div>
         <picture>
           <source
             media="(max-width: 37.5em)"
-            srcset="images/main-image-mobile.png"
+            srcset="images/main-image-mobile.svg"
           />
-          <source media="(min-width: 37.5em)" srcset="images/main-image.png" />
+          <source
+            media="(min-width: 37.5em)"
+            srcset="images/main-image-desktop.svg"
+          />
           <img
-            src="images/main-image.png"
+            src="images/main-image-desktop.svg"
             alt="main-image"
             class="main-image"
           />
         </picture>
+        <div class="main-image__bottom-text">
+          <h2 class="main-image__bottom-text-right whiteBackground">אם כן,</h2>
+          <h2 class="main-image__bottom-text-left mainColor-Background">
+            מקומכם איתנו!
+          </h2>
+        </div>
       </div>
       <!-- MAIN HEADER END -->
 
@@ -141,19 +157,19 @@
             <div class="pros-section-list__item-smile-outer">
               <div class="pros-section-list__item-smile-inner"></div>
             </div>
-            5 משמרות גמישות בשבוע - מתוכן 3 ערב ושישי לסירוגין
+            5 משמרות גמישות בשבוע - מתוכן 3 ערב ושישי לסירוגין.
           </div>
           <div class="pros-section-list__item">
             <div class="pros-section-list__item-smile-outer">
               <div class="pros-section-list__item-smile-inner"></div>
             </div>
-            עבודה לטווח ארוך - נתחיל מחצי שנה ונתקדם משם
+            עבודה לטווח ארוך - נתחיל מחצי שנה ונתקדם משם.
           </div>
           <div class="pros-section-list__item">
             <div class="pros-section-list__item-smile-outer">
               <div class="pros-section-list__item-smile-inner"></div>
             </div>
-            אופציות קידום במוקד חדש שצומח
+            אופציות קידום במוקד חדש שצומח.
           </div>
           <div class="pros-section-list__item">
             <div class="pros-section-list__item-smile-outer">
@@ -167,9 +183,9 @@
 
       <!-- CONTACT-US-SECTION START -->
       <div class="contact-us-section" id="white">
-        <p class="contact-us-section-title">
+        <h2 class="contact-us-section-title-head">
           רוצים לשמוע על המשרה הזו ועל עוד כמה מעניינות?
-        </p>
+        </h2>
         <div class="form-bottom" id="white">
           <div class="right">
             <img
@@ -251,12 +267,12 @@
     <script>
       // Helper function from: http://stackoverflow.com/a/7557433/274826
       const isElementInViewport = el => {
-        const onScreenFromElementTop = 350;
+        const onScreenFromElementTop = 350
         // special bonus for those using jQuery
-        if (typeof jQuery === "function" && el instanceof jQuery) {
-          el = el[0];
+        if (typeof jQuery === 'function' && el instanceof jQuery) {
+          el = el[0]
         }
-        let rect = el.getBoundingClientRect();
+        let rect = el.getBoundingClientRect()
 
         return (
           (rect.top + onScreenFromElementTop <= 0 && rect.bottom >= 0) ||
@@ -267,31 +283,31 @@
           (rect.top + onScreenFromElementTop >= 0 &&
             rect.bottom <=
               (window.innerHeight || document.documentElement.clientHeight))
-        );
-      };
+        )
+      }
       // Detect request animation frame
       let scroll =
         window.requestAnimationFrame ||
         // IE Fallback
-        function(callback) {
-          window.setTimeout(callback, 1000 / 60);
-        };
-      let elementsToShow = document.querySelectorAll(".show-on-scroll");
+        function (callback) {
+          window.setTimeout(callback, 1000 / 60)
+        }
+      let elementsToShow = document.querySelectorAll('.show-on-scroll')
 
-      function loop() {
-        Array.prototype.forEach.call(elementsToShow, function(element) {
+      function loop () {
+        Array.prototype.forEach.call(elementsToShow, function (element) {
           if (isElementInViewport(element)) {
-            element.classList.add("is-visible");
+            element.classList.add('is-visible')
           } else {
-            element.classList.remove("is-visible");
+            element.classList.remove('is-visible')
           }
-        });
+        })
 
-        scroll(loop);
+        scroll(loop)
       }
 
       // Call the loop for the first time
-      loop();
+      loop()
     </script>
   </body>
 </html>
