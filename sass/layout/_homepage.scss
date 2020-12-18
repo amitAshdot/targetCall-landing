@@ -1,11 +1,15 @@
 .header {
+  display: flex;
+  justify-content: flex-end;
+
+  @include respond(phone) {
+    justify-content: center;
+  }
   .logo {
-    float: left;
     width: 45rem;
     padding: 3rem;
     @include respond(phone) {
       padding: 3rem 7rem;
-      float: none;
     }
 
     animation: moveInRight 0.8s;
