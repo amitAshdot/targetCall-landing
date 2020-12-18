@@ -21,11 +21,19 @@
   // @include respond(mini-desktop) {
   //   font-size: 4rem;
   // }
-  @include respond(tab-land) {
+  @include respond(mini-desktop) {
+    font-size: 4rem;
+  }
+
+  @include respond(tab-port) {
+    font-size: 4rem;
+  }
+
+  @include respond(phone) {
     font-size: 4rem;
     object-fit: cover;
     font-size: 4rem;
-    object-position: 50% 0;
+    object-position: 50%;
     height: 60vh;
   }
 
@@ -52,14 +60,17 @@
     width: fit-content;
     animation: fadeIn 1.5s;
 
-    @include respond(mini-desktop) {
+    // @include respond(mini-desktop) {
+    //   flex-direction: column;
+    //   align-items: center;
+    //   top: 5%;
+    //   line-height: 6rem;
+    //   overflow: hidden;
+    // }
+    @include respond(phone) {
       flex-direction: column;
       align-items: center;
       top: 5%;
-      line-height: 6rem;
-      overflow: hidden;
-    }
-    @include respond(phone) {
       line-height: 4rem;
       font-size: 3rem;
       overflow: hidden;
@@ -83,9 +94,9 @@
     animation: fadeIn 1.5s;
     overflow-y: hidden;
 
-    @include respond(mini-desktop) {
-      line-height: 6rem;
-    }
+    // @include respond(mini-desktop) {
+    //   line-height: 6rem;
+    // }
     @include respond(phone) {
       line-height: 4rem;
       font-size: 3rem;
