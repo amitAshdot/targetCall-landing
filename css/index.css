@@ -169,20 +169,20 @@ body {
 
 @font-face {
   font-family: 'adoveFnt22';
-  src: url("/fonts/ploni-regular-aaa.otf") format("OpenType");
+  src: url("https://amitashdot.github.io/targetCall-landing/fonts/ploni-regular-aaa.otf") format("OpenType");
 }
 
 @font-face {
   font-family: 'adoveFnt22-bold';
-  src: url("/fonts/ploni-bold-aaa.otf") format("OpenType");
+  src: url("https://amitashdot.github.io/targetCall-landing/fonts/ploni-bold-aaa.otf") format("OpenType");
 }
 
 @font-face {
   font-family: 'adoveFnt22-ultrabold';
-  src: url("/fonts/ploni-ultrabold-aaa.otf") format("OpenType");
+  src: url("https://amitashdot.github.io/targetCall-landing/fonts/ploni-ultrabold-aaa.otf") format("OpenType");
 }
 
-/* line 14, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/base/_typogrophy.scss */
+/* line 17, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/base/_typogrophy.scss */
 body {
   font-family: 'adoveFnt22';
   font-weight: 400;
@@ -190,12 +190,12 @@ body {
   line-height: 1.7;
 }
 
-/* line 21, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/base/_typogrophy.scss */
+/* line 24, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/base/_typogrophy.scss */
 .blue-text {
   color: #67d2c4;
 }
 
-/* line 24, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/base/_typogrophy.scss */
+/* line 27, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/base/_typogrophy.scss */
 .orange-text {
   color: #66d2c4;
 }
