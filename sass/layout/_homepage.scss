@@ -64,6 +64,13 @@
       font-size: 3rem;
       overflow: hidden;
     }
+
+    &-right {
+      overflow-y: hidden;
+    }
+    &-left {
+      overflow-y: hidden;
+    }
   }
   &__bottom-text {
     display: flex;
@@ -74,6 +81,7 @@
     transform: translate(50%, 0);
     width: fit-content;
     animation: fadeIn 1.5s;
+    overflow-y: hidden;
 
     @include respond(mini-desktop) {
       line-height: 6rem;
