@@ -168,23 +168,23 @@ body {
 }
 
 @font-face {
-  font-family: 'adoveFnt22';
+  font-family: adoveFnt22;
   src: url("https://amitashdot.github.io/targetCall-landing/fonts/ploni-regular-aaa.otf") format("OpenType");
 }
 
 @font-face {
-  font-family: 'adoveFnt22-bold';
+  font-family: adoveFnt22-bold;
   src: url("https://amitashdot.github.io/targetCall-landing/fonts/ploni-bold-aaa.otf") format("OpenType");
 }
 
 @font-face {
-  font-family: 'adoveFnt22-ultrabold';
+  font-family: adoveFnt22-ultrabold;
   src: url("https://amitashdot.github.io/targetCall-landing/fonts/ploni-ultrabold-aaa.otf") format("OpenType");
 }
 
 /* line 17, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/base/_typogrophy.scss */
 body {
-  font-family: 'adoveFnt22';
+  font-family: 'adoveFnt22', 'cursive';
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
