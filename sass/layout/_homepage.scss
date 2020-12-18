@@ -3,6 +3,9 @@
     float: left;
     width: 45rem;
     padding: 3rem;
+    @include respond(phone) {
+      padding: 3rem 7rem;
+    }
 
     animation: moveInRight 0.8s;
   }
@@ -142,7 +145,7 @@
 
 .contact-us-section {
   font-family: 'adoveFnt22-bold';
-  padding: 6rem 0 6rem;
+  padding: 6rem 0 2rem;
   @include respond(phone) {
     padding: 8rem 0;
   }
@@ -164,12 +167,26 @@
       font-size: 7rem;
       margin-bottom: 3rem;
       text-align: center;
-      @include respond(phone) {
+      @include respond(small-desktop) {
+        font-size: 5.8rem;
+        line-height: 7rem;
+      }
+
+      @include respond(tab-land) {
+        font-size: 5rem;
+        line-height: 6rem;
+      }
+      @include respond(tab-port) {
         font-size: 4rem;
         line-height: 5rem;
-        margin: auto;
-        margin-bottom: 0rem;
-        text-align: center;
+      }
+
+      @include respond(phone) {
+        // font-size: 4rem;
+        // line-height: 5rem;
+        // margin: auto;
+        // margin-bottom: 0rem;
+        // text-align: center;
       }
     }
   }
@@ -335,10 +352,11 @@
     margin: auto;
     font-size: 4rem;
     min-width: 90rem;
-    max-width: 130rem;
+    max-width: 120rem;
 
     @include respond(mini-desktop) {
       min-width: 0;
+      max-width: 95vw;
     }
 
     @include respond(phone) {
@@ -461,6 +479,9 @@
       }
 
       @include respond(mini-desktop) {
+        font-size: 3.5rem;
+      }
+      @include respond(tab-port) {
         font-size: 2.5rem;
       }
 
