@@ -55,10 +55,12 @@
       align-items: center;
       top: 5%;
       line-height: 6rem;
+      overflow: hidden;
     }
     @include respond(phone) {
       line-height: 4rem;
       font-size: 3rem;
+      overflow: hidden;
     }
   }
   &__bottom-text {
@@ -90,6 +92,7 @@
   &__text {
     font-size: 7rem;
     line-height: 9rem;
+    overflow: hidden;
 
     // @include respond(small-desktop) {
     //   font-size: 7rem;
@@ -101,10 +104,12 @@
     @include respond(mini-desktop) {
       font-size: 4rem;
       line-height: 5rem;
+      overflow: hidden;
     }
     @include respond(phone) {
       font-size: 3rem;
       line-height: 4rem;
+      overflow: hidden;
     }
   }
 
@@ -183,16 +188,19 @@
       @include respond(small-desktop) {
         font-size: 5.8rem;
         line-height: 7rem;
+        overflow: hidden;
       }
 
       @include respond(tab-land) {
         font-size: 5rem;
         line-height: 6rem;
+        overflow: hidden;
       }
       @include respond(tab-port) {
         font-size: 3.5rem;
         line-height: 5rem;
         padding: 0 3rem;
+        overflow: hidden;
       }
 
       @include respond(phone) {
@@ -220,11 +228,14 @@
   &-input {
     @include inputBasic;
     color: $color-secondary;
+    font-family: 'adoveFnt22';
 
     @include respond(phone) {
+      font-family: 'adoveFnt22';
+
       height: 7rem;
       margin-bottom: 1rem;
-      font-size: 2rem;
+      font-size: 3rem;
     }
 
     &:focus {
@@ -417,6 +428,7 @@
       @include respond(phone) {
         font-size: 2.5rem;
         line-height: 4rem;
+        overflow: hidden;
       }
     }
   }
@@ -531,10 +543,10 @@
         }
 
         @include respond(phone) {
-          width: 5rem;
-          height: 2.5rem;
+          width: 4rem;
+          height: 2rem;
 
-          margin: 1rem 0;
+          margin: 3rem 0;
           background-color: $color-grey-light-1;
           color: $color-white;
         }
@@ -555,8 +567,8 @@
           border: 6px solid;
         }
         @include respond(phone) {
-          width: 5rem;
-          height: 5rem;
+          width: 4rem;
+          height: 4rem;
         }
       }
     }
