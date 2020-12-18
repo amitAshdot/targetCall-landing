@@ -301,7 +301,7 @@ body {
     font-size: 4rem;
     object-fit: cover;
     font-size: 4rem;
-    object-position: left;
+    object-position: center;
     height: 60vh;
   }
 }
