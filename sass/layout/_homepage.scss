@@ -50,6 +50,8 @@
     right: 50%;
     transform: translate(50%, 0);
     width: fit-content;
+    animation: fadeIn 1s;
+
     @include respond(mini-desktop) {
       flex-direction: column;
       align-items: center;
@@ -71,6 +73,8 @@
     right: 50%;
     transform: translate(50%, 0);
     width: fit-content;
+    animation: fadeIn 1s;
+
     @include respond(mini-desktop) {
       line-height: 6rem;
     }
@@ -396,6 +400,20 @@
     &:hover &-title {
       background-position: 0 -100%;
     }
+
+    & {
+      width: 100%;
+      transform: translateY(15%);
+      opacity: 0;
+      transition: all 0.5s;
+      will-change: transform opacity;
+    }
+
+    &.is-visible {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+
     &-title {
       font-family: 'adoveFnt22-bold';
 
