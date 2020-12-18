@@ -5,6 +5,7 @@
     padding: 3rem;
     @include respond(phone) {
       padding: 3rem 7rem;
+      float: none;
     }
 
     animation: moveInRight 0.8s;
@@ -22,15 +23,20 @@
   // }
   @include respond(tab-land) {
     font-size: 4rem;
+    object-fit: cover;
+    font-size: 4rem;
+    height: 70vh;
   }
 
   .whiteBackground {
     background-color: $color-white;
     padding: 0 0.5rem;
+    width: fit-content;
   }
   .mainColor-Background {
     background-color: $color-primary;
     padding: 0 0.5rem;
+    width: fit-content;
   }
 
   &__top-text {
@@ -43,6 +49,7 @@
     width: fit-content;
     @include respond(mini-desktop) {
       flex-direction: column;
+      align-items: center;
       top: 5%;
       line-height: 6rem;
     }
@@ -180,8 +187,9 @@
         line-height: 6rem;
       }
       @include respond(tab-port) {
-        font-size: 4rem;
+        font-size: 3.5rem;
         line-height: 5rem;
+        padding: 0 3rem;
       }
 
       @include respond(phone) {

@@ -1,210 +1,314 @@
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Targetcall make it easy" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/index.css"
+      media="screen"
+    />
+    <title>Targetcall - Jobs</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Targetcall make it easy" />
-  <link rel="stylesheet" type="text/css" href="./css/index.css" media="screen" />
-  <title>Targetcall - Jobs</title>
-</head>
-
-<body>
-  <header class="header">
-    <img class="logo" src="images/logo.png" alt="Logo" />
-  </header>
-  <main>
-    <!-- MAIN HEADER START -->
-    <div class="main-image">
-      <div class="main-image__top-text">
-        <h2 class="main-image__top-text-right">גם אתם מרגישים שזו&nbsp;</h2>
-        <h2 class="main-image__top-text-left whiteBackground">זכות לתת שירות?</h2>
+  <body>
+    <header class="header">
+      <img class="logo" src="images/logo.png" alt="Logo" />
+    </header>
+    <main>
+      <!-- MAIN HEADER START -->
+      <div class="main-image">
+        <div class="main-image__top-text">
+          <h2 class="main-image__top-text-right">גם אתם מרגישים שזו&nbsp;</h2>
+          <h2 class="main-image__top-text-left whiteBackground">
+            זכות לתת שירות&#63;
+          </h2>
+        </div>
+        <picture>
+          <source
+            media="(max-width: 37.5em)"
+            srcset="images/main-image-mobile.jpg"
+          />
+          <source
+            media="(min-width: 37.5em)"
+            srcset="images/main-image-desktop.jpg"
+          />
+          <img
+            src="images/main-image-desktop.jpg"
+            alt="main-image"
+            class="main-image"
+          />
+        </picture>
+        <div class="main-image__bottom-text">
+          <h2 class="main-image__bottom-text-right whiteBackground">אם כן,</h2>
+          <h2 class="main-image__bottom-text-left mainColor-Background">
+            מקומכם איתנו!
+          </h2>
+        </div>
       </div>
-      <picture>
-        <source media="(max-width: 37.5em)" srcset="images/main-image-mobile.jpg" />
-        <source media="(min-width: 37.5em)" srcset="images/main-image-desktop.jpg" />
-        <img src="images/main-image-desktop.jpg" alt="main-image" class="main-image" />
-      </picture>
-      <div class="main-image__bottom-text">
-        <h2 class="main-image__bottom-text-right whiteBackground">אם כן,</h2>
-        <h2 class="main-image__bottom-text-left mainColor-Background">
-          מקומכם איתנו!
+      <!-- MAIN HEADER END -->
+
+      <!-- LOCATION-SECTION START -->
+      <div class="location-section">
+        <div class="location-section__text">
+          <p>חברת התקשורת המובילה בישראל</p>
+          <p>מחפשת למוקד השירות הטכני באשדוד</p>
+        </div>
+        <div class="location-section__title">
+          <h2 class="color-blue">פרטנרים</h2>
+          <h2 class="main">לקשר רציני</h2>
+        </div>
+        <div class="location-section__text">
+          <p>שחקני נשמה שרוצים לתת שירות מכל הלב</p>
+        </div>
+      </div>
+      <!-- LOCATION-SECTION END -->
+
+      <!-- CONTACT-US-SECTION START -->
+      <div class="contact-us-section" id="grey">
+        <p class="contact-us-section-title">ליצירת קשר ותיאום ראיון</p>
+        <form class="form" id="form" method="post" accept-charset="utf-8">
+          <input
+            type="hidden"
+            id="uid"
+            name="uid"
+            value="6B0A385F-2E47-4E78-A2BD-1725AD323582"
+          />
+          <input type="hidden" name="adname" id="adname" value="" />
+          <input
+            type="hidden"
+            name="systemfield12"
+            id="systemfield12"
+            value="2"
+          />
+          <input
+            type="hidden"
+            name="systemfield52"
+            id="systemfield52"
+            value="26"
+          />
+          <input type="hidden" name="adsetname" id="adsetname" value="" />
+          <input
+            name="originatingleadcode"
+            type="hidden"
+            id="originatingleadcode"
+            value="49"
+          />
+          <input
+            name="accountname"
+            id="accountname"
+            type="text"
+            placeholder="שם"
+            class="form-input"
+            required=""
+          />
+          <input
+            name="telephone1"
+            id="telephone1"
+            type="tel"
+            pattern="[0-9-]{8,10}"
+            placeholder="טלפון"
+            class="form-input"
+            required=""
+          />
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="דואל"
+            class="form-input"
+            required
+          />
+          <button type="submit" class="form-submit">שלח</button>
+        </form>
+      </div>
+      <!-- CONTACT-US-SECTION END -->
+
+      <!-- ABOUT-SECTION START -->
+      <div class="about-setion">
+        <div class="about-setion__info">
+          <h2 class="about-setion__info-title">
+            החדשות הטובות
+          </h2>
+          <p class="about-setion__info-text">
+            אפשר להתחיל את המשרה במיידי אחרי ראיון אישי. הרשמתם? התחלתם! הכשרות,
+            הדרכות, ליווי אישי ויחס חם - עלינו! (טוב נו, גם הקפה)
+          </p>
+        </div>
+        <div class="about-setion__info">
+          <h2 class="about-setion__info-title">
+            מהות התפקיד
+          </h2>
+          <p class="about-setion__info-text">
+            לעזור לאנשים בכל בעיה טכנית בה הם נתקלים כדי שהחיים שלהם ימשיכו
+            מאותה נקודה שבה נעצרו. או במילים אחרות, לפתור להם את התקלות ולהחזיר
+            אותם שמחים ומאושרים לטלפון, לאינסטגרם, לפייסבוק ולנטפליקס.
+          </p>
+        </div>
+      </div>
+      <!-- ABOUT-SECTION END -->
+
+      <!-- PROS-SECTION START -->
+      <div class="pros-section">
+        <h2 class="pros-section-title">תכל'ס, מה מחכה לכם אצלנו?</h2>
+        <div class="pros-section-list">
+          <div class="pros-section-list__item">
+            <div class="pros-section-list__item-smile-outer">
+              <div class="pros-section-list__item-smile-inner"></div>
+            </div>
+            5 משמרות גמישות בשבוע - מתוכן 3 ערב ושישי לסירוגין.
+          </div>
+          <div class="pros-section-list__item">
+            <div class="pros-section-list__item-smile-outer">
+              <div class="pros-section-list__item-smile-inner"></div>
+            </div>
+            עבודה לטווח ארוך - נתחיל מחצי שנה ונתקדם משם.
+          </div>
+          <div class="pros-section-list__item">
+            <div class="pros-section-list__item-smile-outer">
+              <div class="pros-section-list__item-smile-inner"></div>
+            </div>
+            אופציות קידום במוקד חדש שצומח.
+          </div>
+          <div class="pros-section-list__item">
+            <div class="pros-section-list__item-smile-outer">
+              <div class="pros-section-list__item-smile-inner"></div>
+            </div>
+            שכר טוב, אווירה צעירה, חברה של אנשים איכותיים!
+          </div>
+        </div>
+      </div>
+      <!-- PROS-SECTION END -->
+
+      <!-- CONTACT-US-SECTION START -->
+      <div class="contact-us-section" id="white">
+        <h2 class="contact-us-section-title-head">
+          רוצים לשמוע על המשרה הזו ועל עוד כמה מעניינות?
         </h2>
-      </div>
-    </div>
-    <!-- MAIN HEADER END -->
-
-    <!-- LOCATION-SECTION START -->
-    <div class="location-section">
-      <div class="location-section__text">
-        <p>חברת התקשורת המובילה בישראל</p>
-        <p>מחפשת למוקד השירות הטכני באשדוד</p>
-      </div>
-      <div class="location-section__title">
-        <h2 class="color-blue">פרטנרים</h2>
-        <h2 class="main">לקשר רציני</h2>
-      </div>
-      <div class="location-section__text">
-        <p>שחקני נשמה שרוצים לתת שירות מכל הלב</p>
-      </div>
-    </div>
-    <!-- LOCATION-SECTION END -->
-
-    <!-- CONTACT-US-SECTION START -->
-    <div class="contact-us-section" id="grey">
-      <p class="contact-us-section-title">ליצירת קשר ותיאום ראיון</p>
-      <form class="form" id="form" method="post" accept-charset="utf-8">
-        <input type="hidden" id="uid" name="uid" value="6B0A385F-2E47-4E78-A2BD-1725AD323582" />
-        <input type="hidden" name="adname" id="adname" value="" />
-        <input type="hidden" name="systemfield12" id="systemfield12" value="2" />
-        <input type="hidden" name="systemfield52" id="systemfield52" value="26" />
-        <input type="hidden" name="adsetname" id="adsetname" value="" />
-        <input name="originatingleadcode" type="hidden" id="originatingleadcode" value="49" />
-        <input name="accountname" id="accountname" type="text" placeholder="שם" class="form-input" required="" />
-        <input name="telephone1" id="telephone1" type="tel" pattern="[0-9-]{8,10}" placeholder="טלפון"
-          class="form-input" required="" />
-        <input name="email" id="email" type="email" placeholder="דואל" class="form-input" required />
-        <button type="submit" class="form-submit">שלח</button>
-      </form>
-    </div>
-    <!-- CONTACT-US-SECTION END -->
-
-    <!-- ABOUT-SECTION START -->
-    <div class="about-setion">
-      <div class="about-setion__info">
-        <h2 class="about-setion__info-title">
-          החדשות הטובות
-        </h2>
-        <p class="about-setion__info-text">
-          אפשר להתחיל את המשרה במיידי אחרי ראיון אישי. הרשמתם? התחלתם! הכשרות,
-          הדרכות, ליווי אישי ויחס חם - עלינו! (טוב נו, גם הקפה)
-        </p>
-      </div>
-      <div class="about-setion__info">
-        <h2 class="about-setion__info-title">
-          מהות התפקיד
-        </h2>
-        <p class="about-setion__info-text">
-          לעזור לאנשים בכל בעיה טכנית בה הם נתקלים כדי שהחיים שלהם ימשיכו
-          מאותה נקודה שבה נעצרו. או במילים אחרות, לפתור להם את התקלות ולהחזיר
-          אותם שמחים ומאושרים לטלפון, לאינסטגרם, לפייסבוק ולנטפליקס.
-        </p>
-      </div>
-    </div>
-    <!-- ABOUT-SECTION END -->
-
-    <!-- PROS-SECTION START -->
-    <div class="pros-section">
-      <h2 class="pros-section-title">תכל'ס, מה מחכה לכם אצלנו?</h2>
-      <div class="pros-section-list">
-        <div class="pros-section-list__item">
-          <div class="pros-section-list__item-smile-outer">
-            <div class="pros-section-list__item-smile-inner"></div>
+        <div class="form-bottom" id="white">
+          <div class="right">
+            <img
+              class="inline-photo show-on-scroll smiley desktop"
+              src="images/smiley.png"
+              alt="Smiley"
+            />
           </div>
-          5 משמרות גמישות בשבוע - מתוכן 3 ערב ושישי לסירוגין.
-        </div>
-        <div class="pros-section-list__item">
-          <div class="pros-section-list__item-smile-outer">
-            <div class="pros-section-list__item-smile-inner"></div>
+          <div class="left">
+            <p class="contact-us-section-title">השאירו לנו פרטים</p>
+            <form class="form" id="bottom" method="post" accept-charset="utf-8">
+              <input
+                type="hidden"
+                id="uid"
+                name="uid"
+                value="6B0A385F-2E47-4E78-A2BD-1725AD323582"
+              />
+              <input type="hidden" name="adname" id="adname" value="" />
+              <input
+                type="hidden"
+                name="systemfield12"
+                id="systemfield12"
+                value="2"
+              />
+              <input
+                type="hidden"
+                name="systemfield52"
+                id="systemfield52"
+                value="26"
+              />
+              <input type="hidden" name="adsetname" id="adsetname" value="" />
+              <input
+                name="originatingleadcode"
+                type="hidden"
+                id="originatingleadcode"
+                value="49"
+              />
+              <input
+                name="accountname"
+                id="accountname"
+                type="text"
+                placeholder="שם"
+                class="form-bottom-input"
+                required=""
+              />
+              <input
+                name="telephone1"
+                id="telephone1"
+                type="tel"
+                pattern="[0-9-]{8,10}"
+                placeholder="טלפון"
+                class="form-bottom-input"
+                required=""
+              />
+              <input
+                name="email"
+                id="email"
+                type="email"
+                placeholder="דואל"
+                class="form-bottom-input"
+                required
+              />
+              <button type="submit" class="form-bottom-submit">שלח</button>
+            </form>
           </div>
-          עבודה לטווח ארוך - נתחיל מחצי שנה ונתקדם משם.
-        </div>
-        <div class="pros-section-list__item">
-          <div class="pros-section-list__item-smile-outer">
-            <div class="pros-section-list__item-smile-inner"></div>
-          </div>
-          אופציות קידום במוקד חדש שצומח.
-        </div>
-        <div class="pros-section-list__item">
-          <div class="pros-section-list__item-smile-outer">
-            <div class="pros-section-list__item-smile-inner"></div>
-          </div>
-          שכר טוב, אווירה צעירה, חברה של אנשים איכותיים!
         </div>
       </div>
-    </div>
-    <!-- PROS-SECTION END -->
+      <!-- CONTACT-US-SECTION END -->
+    </main>
+    <footer class="footer">
+      <img
+        class="inline-photo show-on-scroll smiley mobile"
+        src="images/smiley.png"
+        alt="Smiley"
+      />
+      <img class="footer-logo" src="images/logo.png" alt="Logo" />
+    </footer>
 
-    <!-- CONTACT-US-SECTION START -->
-    <div class="contact-us-section" id="white">
-      <h2 class="contact-us-section-title-head">
-        רוצים לשמוע על המשרה הזו ועל עוד כמה מעניינות?
-      </h2>
-      <div class="form-bottom" id="white">
-        <div class="right">
-          <img class="inline-photo show-on-scroll smiley desktop" src="images/smiley.png" alt="Smiley" />
-        </div>
-        <div class="left">
-          <p class="contact-us-section-title">השאירו לנו פרטים</p>
-          <form class="form" id="bottom" method="post" accept-charset="utf-8">
-            <input type="hidden" id="uid" name="uid" value="6B0A385F-2E47-4E78-A2BD-1725AD323582" />
-            <input type="hidden" name="adname" id="adname" value="" />
-            <input type="hidden" name="systemfield12" id="systemfield12" value="2" />
-            <input type="hidden" name="systemfield52" id="systemfield52" value="26" />
-            <input type="hidden" name="adsetname" id="adsetname" value="" />
-            <input name="originatingleadcode" type="hidden" id="originatingleadcode" value="49" />
-            <input name="accountname" id="accountname" type="text" placeholder="שם" class="form-bottom-input"
-              required="" />
-            <input name="telephone1" id="telephone1" type="tel" pattern="[0-9-]{8,10}" placeholder="טלפון"
-              class="form-bottom-input" required="" />
-            <input name="email" id="email" type="email" placeholder="דואל" class="form-bottom-input" required />
-            <button type="submit" class="form-bottom-submit">שלח</button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <!-- CONTACT-US-SECTION END -->
-  </main>
-  <footer class="footer">
-    <img class="inline-photo show-on-scroll smiley mobile" src="images/smiley.png" alt="Smiley" />
-    <img class="footer-logo" src="images/logo.png" alt="Logo" />
-  </footer>
-
-  <script>
-    // Helper function from: http://stackoverflow.com/a/7557433/274826
-    const isElementInViewport = el => {
-      const onScreenFromElementTop = 350
-      // special bonus for those using jQuery
-      if (typeof jQuery === 'function' && el instanceof jQuery) {
-        el = el[0]
-      }
-      let rect = el.getBoundingClientRect()
-
-      return (
-        (rect.top + onScreenFromElementTop <= 0 && rect.bottom >= 0) ||
-        (rect.bottom >=
-          (window.innerHeight || document.documentElement.clientHeight) &&
-          rect.top + onScreenFromElementTop <=
-          (window.innerHeight || document.documentElement.clientHeight)) ||
-        (rect.top + onScreenFromElementTop >= 0 &&
-          rect.bottom <=
-          (window.innerHeight || document.documentElement.clientHeight))
-      )
-    }
-    // Detect request animation frame
-    let scroll =
-      window.requestAnimationFrame ||
-      // IE Fallback
-      function (callback) {
-        window.setTimeout(callback, 1000 / 60)
-      }
-    let elementsToShow = document.querySelectorAll('.show-on-scroll')
-
-    function loop() {
-      Array.prototype.forEach.call(elementsToShow, function (element) {
-        if (isElementInViewport(element)) {
-          element.classList.add('is-visible')
-        } else {
-          element.classList.remove('is-visible')
+    <script>
+      // Helper function from: http://stackoverflow.com/a/7557433/274826
+      const isElementInViewport = el => {
+        const onScreenFromElementTop = 350
+        // special bonus for those using jQuery
+        if (typeof jQuery === 'function' && el instanceof jQuery) {
+          el = el[0]
         }
-      })
+        let rect = el.getBoundingClientRect()
 
-      scroll(loop)
-    }
+        return (
+          (rect.top + onScreenFromElementTop <= 0 && rect.bottom >= 0) ||
+          (rect.bottom >=
+            (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.top + onScreenFromElementTop <=
+              (window.innerHeight || document.documentElement.clientHeight)) ||
+          (rect.top + onScreenFromElementTop >= 0 &&
+            rect.bottom <=
+              (window.innerHeight || document.documentElement.clientHeight))
+        )
+      }
+      // Detect request animation frame
+      let scroll =
+        window.requestAnimationFrame ||
+        // IE Fallback
+        function (callback) {
+          window.setTimeout(callback, 1000 / 60)
+        }
+      let elementsToShow = document.querySelectorAll('.show-on-scroll')
 
-    // Call the loop for the first time
-    loop()
-  </script>
-</body>
+      function loop () {
+        Array.prototype.forEach.call(elementsToShow, function (element) {
+          if (isElementInViewport(element)) {
+            element.classList.add('is-visible')
+          } else {
+            element.classList.remove('is-visible')
+          }
+        })
 
+        scroll(loop)
+      }
+
+      // Call the loop for the first time
+      loop()
+    </script>
+  </body>
 </html>
