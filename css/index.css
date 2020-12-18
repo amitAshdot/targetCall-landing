@@ -459,7 +459,7 @@ body {
 /* line 146, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .contact-us-section {
   font-family: 'adoveFnt22-bold';
-  padding: 6rem 0 2rem;
+  padding: 6rem 0 6rem;
 }
 
 @media only screen and (max-width: 37.5em) {
