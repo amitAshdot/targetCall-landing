@@ -50,7 +50,7 @@
     right: 50%;
     transform: translate(50%, 0);
     width: fit-content;
-    animation: fadeIn 1s;
+    animation: fadeIn 1.5s;
 
     @include respond(mini-desktop) {
       flex-direction: column;
@@ -73,7 +73,7 @@
     right: 50%;
     transform: translate(50%, 0);
     width: fit-content;
-    animation: fadeIn 1s;
+    animation: fadeIn 1.5s;
 
     @include respond(mini-desktop) {
       line-height: 6rem;
