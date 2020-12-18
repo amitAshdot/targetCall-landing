@@ -228,11 +228,8 @@
   &-input {
     @include inputBasic;
     color: $color-secondary;
-    font-family: 'adoveFnt22';
 
     @include respond(phone) {
-      font-family: 'adoveFnt22';
-
       height: 7rem;
       margin-bottom: 1rem;
       font-size: 3rem;
