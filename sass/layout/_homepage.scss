@@ -499,6 +499,9 @@
   &:hover > &-title {
     // filter: drop-shadow(0 0 0.5rem #5ac5d9);
     animation: border-flicker 2s linear infinite;
+    @include respond(phone) {
+      animation: none;
+    }
   }
 
   &-title {
