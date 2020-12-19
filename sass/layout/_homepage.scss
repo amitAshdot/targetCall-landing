@@ -67,11 +67,6 @@
     animation: fadeIn 1.5s;
 
     @include respond(mini-desktop) {
-      // flex-direction: column;
-      // align-items: center;
-      // top: 5%;
-      // line-height: 6rem;
-      // overflow: hidden;
       line-height: 7.5rem;
     }
     @include respond(tab-port) {
@@ -93,10 +88,12 @@
     &-right {
       overflow-y: hidden;
     }
+
     &-left {
       overflow-y: hidden;
     }
   }
+
   &__bottom-text {
     display: flex;
     position: absolute;
@@ -113,6 +110,7 @@
     @include respond(mini-desktop) {
       line-height: 7.5rem;
     }
+
     @include respond(tab-port) {
       line-height: 6.5rem;
     }
@@ -121,6 +119,7 @@
       line-height: 5rem;
       font-size: 3rem;
     }
+
     @include respond(phone-small) {
       font-size: 2.3rem;
     }
@@ -140,13 +139,6 @@
     line-height: 9rem;
     overflow: hidden;
 
-    // @include respond(small-desktop) {
-    //   font-size: 7rem;
-    // }
-
-    // @include respond(tab-land) {
-    //   font-size: 7rem;
-    // }
     @include respond(mini-desktop) {
       font-size: 4rem;
       line-height: 5rem;
@@ -176,21 +168,10 @@
     @include respond(phone) {
       margin: 2rem auto 0;
     }
-
-    // &:hover h2 {
-    //   filter: drop-shadow(0 0 0.6rem #000);
-    //   transform: scale(1.03);
-    // }
-    // &:hover .color-blue {
-    //   filter: drop-shadow(0 0 0.6rem #5ac5d9);
-    //   transform: scale(1.03);
-    // }
-
     & h2 {
       font-size: 14rem;
       font-weight: 900;
       margin: 0 1rem;
-      //   transition: all 0.2s;
 
       @include respond(mini-desktop) {
         font-size: 8.2rem;
@@ -258,14 +239,6 @@
         padding: 0 3rem;
         overflow: hidden;
       }
-
-      @include respond(phone) {
-        // font-size: 4rem;
-        // line-height: 5rem;
-        // margin: auto;
-        // margin-bottom: 0rem;
-        // text-align: center;
-      }
       @include respond(phone-small) {
         font-size: 3rem;
       }
@@ -321,7 +294,6 @@
 
   &-bottom {
     display: flex;
-    // height: 800px;
     .left {
       width: 70%;
       text-align: center;
@@ -335,10 +307,6 @@
         margin-left: 0;
         padding-top: 2rem;
       }
-
-      //   @include respond(phone) {
-      //     width: 110%;
-      //   }
     }
     .right {
       width: 30%;
@@ -348,12 +316,6 @@
       @include respond(tab-port) {
         width: 0%;
       }
-      //   @include respond(phone) {
-      //     width: 0%;
-      //   }
-      //   @include respond(phone-small) {
-      //     font-size: 3rem;
-      //   }
 
       .smiley.inline-photo {
         width: 100%;
@@ -460,7 +422,6 @@
         black 50%
       );
       background-clip: text;
-
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-size: 200% 100%;
@@ -530,6 +491,7 @@
   &-list {
     display: flex;
     flex-direction: column;
+
     @include respond(phone) {
       display: flex;
       flex-direction: column;
@@ -628,7 +590,6 @@
   width: 50%;
   margin-top: -10px;
   margin-right: auto;
-
   margin-bottom: 6rem;
 
   @include respond(tab-port) {
