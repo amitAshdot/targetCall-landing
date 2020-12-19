@@ -21,6 +21,28 @@
   margin: 1.5rem 0;
   padding: 0 2.5rem;
   font-size: 3.5rem;
+
+  @include respond(phone-small) {
+    margin: 0.8rem;
+    font-size: 3rem;
+    height: 7rem;
+  }
+}
+@mixin submitBasic($color) {
+  font-family: 'adoveFnt22-bold';
+  position: relative;
+  height: 10rem;
+  border: none;
+  border-radius: 10rem;
+  margin: 2rem 0;
+  padding: 0 2rem;
+  font-size: 5rem;
+  color: $color-white;
+  background-color: $color;
+  width: 50%;
+  align-self: center;
+  margin-top: 9rem;
+  transition: all 0.5s;
 }
 @mixin buttonHover {
   transform: translate(0.6rem, -0.8rem);

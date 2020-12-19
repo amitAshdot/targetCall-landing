@@ -295,7 +295,7 @@
         }
       let elementsToShow = document.querySelectorAll('.show-on-scroll')
 
-      function loop () {
+      const loop = () => {
         Array.prototype.forEach.call(elementsToShow, function (element) {
           if (isElementInViewport(element)) {
             element.classList.add('is-visible')
