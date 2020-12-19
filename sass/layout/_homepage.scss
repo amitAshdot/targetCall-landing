@@ -212,7 +212,7 @@
   font-family: 'adoveFnt22-bold';
   padding: 6rem 0 6rem;
   @include respond(phone) {
-    padding: 8rem 0;
+    padding: 8rem 0 0;
   }
 
   & p {
