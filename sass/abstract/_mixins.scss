@@ -22,10 +22,14 @@
   padding: 0 2.5rem;
   font-size: 3.5rem;
 
+  @include respond(phone) {
+    height: 7rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+  }
+
   @include respond(phone-small) {
     margin: 0.8rem;
-    font-size: 3rem;
-    height: 7rem;
   }
 }
 @mixin submitBasic($color) {
@@ -42,7 +46,15 @@
   width: 50%;
   align-self: center;
   margin-top: 9rem;
+
   transition: all 0.5s;
+
+  @include respond(phone) {
+    font-size: 3rem;
+    width: 50%;
+    height: 7rem;
+    margin-top: 5rem;
+  }
 }
 @mixin buttonHover {
   transform: translate(0.6rem, -0.8rem);
