@@ -10,6 +10,7 @@
     object-fit: contain;
     padding: 3rem;
     @include respond(phone) {
+      height: 11rem;
       padding: 0rem 7rem;
     }
 
