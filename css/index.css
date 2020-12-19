@@ -294,7 +294,7 @@ body {
 @media only screen and (max-width: 37.5em) {
   /* line 8, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .header .logo {
-    padding: 3rem 7rem;
+    padding: 0rem 7rem;
   }
 }
 
