@@ -52,15 +52,15 @@
 
       <!-- LOCATION-SECTION START -->
       <div class="location-section">
-        <div class="location-section__text">
+        <div class="location-section__text show-on-scroll">
           <p>חברת התקשורת המובילה בישראל</p>
           <p>מחפשת למוקד השירות הטכני באשדוד</p>
         </div>
-        <div class="location-section__title">
+        <div class="location-section__title show-on-scroll">
           <h2 class="color-blue">פרטנרים</h2>
           <h2 class="main">לקשר רציני</h2>
         </div>
-        <div class="location-section__text">
+        <div class="location-section__text show-on-scroll">
           <p>שחקני נשמה שרוצים לתת שירות מכל הלב</p>
         </div>
       </div>
@@ -100,7 +100,7 @@
             name="accountname"
             id="accountname"
             type="text"
-            placeholder="שם"
+            placeholder="שם מלא"
             class="form-input"
             required=""
           />
@@ -128,20 +128,20 @@
 
       <!-- ABOUT-SECTION START -->
       <div class="about-setion">
-        <div class="about-setion__info show-on-scroll">
-          <h2 class="about-setion__info-title ">
+        <div class="about-setion__info ">
+          <h2 class="about-setion__info-title show-on-scroll">
             החדשות הטובות
           </h2>
-          <p class="about-setion__info-text">
+          <p class="about-setion__info-text show-on-scroll">
             אפשר להתחיל את המשרה במיידי אחרי ראיון אישי. הרשמתם? התחלתם! הכשרות,
             הדרכות, ליווי אישי ויחס חם - עלינו! (טוב נו, גם הקפה)
           </p>
         </div>
-        <div class="about-setion__info show-on-scroll">
-          <h2 class="about-setion__info-title">
+        <div class="about-setion__info ">
+          <h2 class="about-setion__info-title show-on-scroll ">
             מהות התפקיד
           </h2>
-          <p class="about-setion__info-text">
+          <p class="about-setion__info-text show-on-scroll">
             לעזור לאנשים בכל בעיה טכנית בה הם נתקלים כדי שהחיים שלהם ימשיכו
             מאותה נקודה שבה נעצרו. או במילים אחרות, לפתור להם את התקלות ולהחזיר
             אותם שמחים ומאושרים לטלפון, לאינסטגרם, לפייסבוק ולנטפליקס.
@@ -152,7 +152,12 @@
 
       <!-- PROS-SECTION START -->
       <div class="pros-section">
-        <h2 class="pros-section-title">תכל'ס, מה מחכה לכם אצלנו?</h2>
+        <h2 class="pros-section-title show-on-scroll">
+          תכל'ס,
+          <span class="pros-section-title-span show-on-scroll"
+            >מה מחכה לכם אצלנו?</span
+          >
+        </h2>
         <div class="pros-section-list">
           <div class="pros-section-list__item">
             <div class="pros-section-list__item-smile-outer">
@@ -228,7 +233,7 @@
                 name="accountname"
                 id="accountname"
                 type="text"
-                placeholder="שם"
+                placeholder="שם מלא"
                 class="form-bottom-input"
                 required=""
               />
@@ -268,23 +273,27 @@
     <script>
       // Helper function from: http://stackoverflow.com/a/7557433/274826
       const isElementInViewport = el => {
-        const onScreenFromElementTop = 250
+        const pixFromElementTop = 150
         // special bonus for those using jQuery
         if (typeof jQuery === 'function' && el instanceof jQuery) {
           el = el[0]
         }
         let rect = el.getBoundingClientRect()
-
         return (
-          (rect.top + onScreenFromElementTop <= 0 && rect.bottom >= 0) ||
-          (rect.bottom + onScreenFromElementTop >=
+          (rect.top + pixFromElementTop <= 0 && rect.bottom >= 0) ||
+          (rect.bottom + pixFromElementTop >=
             (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.top + onScreenFromElementTop <=
+            rect.top + pixFromElementTop <=
               (window.innerHeight || document.documentElement.clientHeight)) ||
-          (rect.top + onScreenFromElementTop >= 0 &&
-            rect.bottom + onScreenFromElementTop <=
+          (rect.top + pixFromElementTop >= 0 &&
+            rect.bottom + pixFromElementTop <=
               (window.innerHeight || document.documentElement.clientHeight))
         )
+        // return (
+        //   (window.innerHeight || document.documentElement.clientHeight) &&
+        //   rect.top - rect.height <= 0 &&
+        //   rect.bottom >= 0
+        // )
       }
       // Detect request animation frame
       let scroll =

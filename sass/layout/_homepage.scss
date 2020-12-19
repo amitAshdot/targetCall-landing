@@ -139,6 +139,18 @@
     line-height: 9rem;
     overflow: hidden;
 
+    & {
+      opacity: 0;
+      transform: translateY(50%);
+      transition: all 0.5s;
+      will-change: transform opacity;
+    }
+
+    &.is-visible {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+
     @include respond(mini-desktop) {
       font-size: 4rem;
       line-height: 5rem;
@@ -168,6 +180,18 @@
     @include respond(phone) {
       margin: 2rem auto 0;
     }
+    & {
+      opacity: 0;
+      transform: translateY(50%);
+      transition: all 0.5s;
+      will-change: transform opacity;
+    }
+
+    &.is-visible {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+
     & h2 {
       font-size: 14rem;
       font-weight: 900;
@@ -374,19 +398,6 @@
       background-position: 0 -100%;
     }
 
-    & {
-      width: 100%;
-      transform: translateY(15%);
-      opacity: 0;
-      transition: all 0.5s;
-      will-change: transform opacity;
-    }
-
-    &.is-visible {
-      transform: translateY(0%);
-      opacity: 1;
-    }
-
     &-title {
       font-family: 'adoveFnt22-bold';
 
@@ -408,10 +419,33 @@
       overflow: hidden;
       transition: background-position 275ms ease;
       text-decoration: none; // text decorations are clipped in WebKit browsers
+
+      & {
+        width: 100%;
+        transform: translateY(100%);
+        opacity: 0;
+        transition: all 0.5s;
+        will-change: transform opacity;
+      }
+
+      &.is-visible {
+        transform: translateY(0%);
+        opacity: 1;
+      }
     }
 
     &-text {
       width: 100%;
+      transform: scale(0);
+      opacity: 0;
+      transition: all 0.5s;
+      will-change: scale opacity;
+
+      &.is-visible {
+        transform: scale(1);
+        opacity: 1;
+      }
+
       @include respond(phone) {
         font-size: 2.5rem;
         line-height: 4rem;
@@ -448,6 +482,19 @@
     color: $color-primary-dark;
     font-size: 9rem;
     margin-bottom: 4rem;
+
+    & {
+      transform: translateX(100%);
+      opacity: 0;
+      transition: all 0.5s;
+      will-change: transform opacity;
+    }
+
+    &.is-visible {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+
     @include respond(small-desktop) {
       font-size: 7rem;
     }
@@ -464,6 +511,19 @@
 
     @include respond(phone) {
       font-size: 3rem;
+    }
+
+    &-span {
+      transform: translateY(100%);
+      opacity: 0;
+      transition: all 0.5s;
+      transition-delay: 1s;
+      will-change: transform opacity;
+
+      &.is-visible {
+        transform: translateY(0%);
+        opacity: 1;
+      }
     }
   }
 
