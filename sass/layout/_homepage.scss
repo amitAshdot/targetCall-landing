@@ -7,6 +7,7 @@
   }
   .logo {
     width: 45rem;
+    object-fit: contain;
     padding: 3rem;
     @include respond(phone) {
       padding: 3rem 7rem;
