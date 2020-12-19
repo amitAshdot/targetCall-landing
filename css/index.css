@@ -557,16 +557,20 @@ body {
   .contact-us-section {
     padding: 8rem 0 0;
   }
+  /* line 218, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  .contact-us-section#grey {
+    padding: 8rem 0;
+  }
 }
 
-/* line 219, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 223, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .contact-us-section p {
   font-size: 6rem;
   margin-bottom: 4rem;
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 219, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 223, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .contact-us-section p {
     font-size: 3.5rem;
     margin-bottom: 2rem;
@@ -574,19 +578,19 @@ body {
 }
 
 @media only screen and (max-width: 21.875em) {
-  /* line 219, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 223, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .contact-us-section p {
     font-size: 3rem;
   }
 }
 
-/* line 231, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 235, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .contact-us-section-title {
   font-size: 4rem;
   text-align: center;
 }
 
-/* line 235, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 239, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .contact-us-section-title-head {
   font-size: 7rem;
   margin-bottom: 3rem;
@@ -594,7 +598,7 @@ body {
 }
 
 @media only screen and (max-width: 95em) {
-  /* line 235, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 239, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .contact-us-section-title-head {
     font-size: 5.8rem;
     line-height: 7rem;
@@ -603,7 +607,7 @@ body {
 }
 
 @media only screen and (max-width: 75em) {
-  /* line 235, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 239, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .contact-us-section-title-head {
     font-size: 5rem;
     line-height: 6rem;
@@ -612,7 +616,7 @@ body {
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 235, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 239, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .contact-us-section-title-head {
     font-size: 3.5rem;
     line-height: 5rem;
@@ -622,18 +626,18 @@ body {
 }
 
 @media only screen and (max-width: 21.875em) {
-  /* line 235, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 239, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .contact-us-section-title-head {
     font-size: 3rem;
   }
 }
 
-/* line 269, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 273, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .contact-us-section#grey {
   background-color: #d8dde1;
 }
 
-/* line 273, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 277, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form {
   display: flex;
   flex-direction: column;
@@ -642,13 +646,13 @@ body {
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 273, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 277, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .form {
     width: 85vw;
   }
 }
 
-/* line 282, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 286, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-input {
   font-family: 'adoveFnt22';
   height: 9rem;
@@ -661,7 +665,7 @@ body {
 }
 
 @media only screen and (max-width: 21.875em) {
-  /* line 282, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 286, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .form-input {
     margin: 0.8rem;
     font-size: 3rem;
@@ -670,7 +674,7 @@ body {
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 282, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 286, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .form-input {
     height: 7rem;
     margin-bottom: 1rem;
@@ -679,23 +683,23 @@ body {
 }
 
 @media only screen and (max-width: 21.875em) {
-  /* line 282, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 286, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .form-input {
     margin: 0.8rem;
   }
 }
 
-/* line 295, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 299, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-input:focus {
   outline: 0;
 }
 
-/* line 299, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 303, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-input:hover::placeholder {
   color: #66d2c4;
 }
 
-/* line 303, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 307, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-submit {
   font-family: 'adoveFnt22-bold';
   position: relative;
@@ -768,7 +772,7 @@ body {
   opacity: 1;
 }
 
-/* line 306, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 310, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-submit:hover {
   transform: translate(0.6rem, -0.8rem);
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
@@ -776,7 +780,7 @@ body {
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 303, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 307, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .form-submit {
     height: 7rem;
     font-size: 3rem;
@@ -784,12 +788,12 @@ body {
   }
 }
 
-/* line 317, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 321, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-bottom {
   display: flex;
 }
 
-/* line 320, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 324, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-bottom .left {
   width: 70%;
   text-align: center;
@@ -798,14 +802,14 @@ body {
 }
 
 @media only screen and (max-width: 66.875em) {
-  /* line 320, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 324, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .form-bottom .left {
     margin-left: 5rem;
   }
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 320, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 324, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .form-bottom .left {
     width: 100%;
     margin-left: 0;
@@ -813,26 +817,26 @@ body {
   }
 }
 
-/* line 338, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 342, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-bottom .right {
   width: 30%;
 }
 
 @media only screen and (max-width: 66.875em) {
-  /* line 338, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 342, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .form-bottom .right {
     width: 45%;
   }
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 338, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 342, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .form-bottom .right {
     width: 0%;
   }
 }
 
-/* line 353, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 357, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-bottom .right .smiley.inline-photo {
   width: 100%;
   transform: translateX(100%);
@@ -840,12 +844,12 @@ body {
   will-change: transform;
 }
 
-/* line 360, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 364, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-bottom .right .smiley.inline-photo.is-visible {
   transform: translateX(0%);
 }
 
-/* line 365, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 369, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-bottom-input {
   font-family: 'adoveFnt22';
   height: 9rem;
@@ -859,7 +863,7 @@ body {
 }
 
 @media only screen and (max-width: 21.875em) {
-  /* line 365, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 369, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .form-bottom-input {
     margin: 0.8rem;
     font-size: 3rem;
@@ -867,22 +871,22 @@ body {
   }
 }
 
-/* line 370, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 374, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-bottom-input:focus {
   outline: 0;
 }
 
-/* line 374, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 378, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-bottom-input::placeholder {
   color: #4285f5;
 }
 
-/* line 378, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 382, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-bottom-input:hover::placeholder {
   color: #000;
 }
 
-/* line 382, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 386, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-bottom-submit {
   font-family: 'adoveFnt22-bold';
   position: relative;
@@ -955,7 +959,7 @@ body {
   opacity: 1;
 }
 
-/* line 385, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 389, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .form-bottom-submit:hover {
   transform: translate(0.6rem, -0.8rem);
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.6);
@@ -963,7 +967,7 @@ body {
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 382, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 386, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .form-bottom-submit {
     height: 8rem;
     width: 60%;
@@ -972,19 +976,19 @@ body {
   }
 }
 
-/* line 399, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 403, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .about-setion {
   padding: 10rem 7rem;
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 399, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 403, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .about-setion {
     padding: 10rem 4rem;
   }
 }
 
-/* line 405, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 409, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .about-setion__info {
   margin: auto;
   font-size: 4rem;
@@ -993,7 +997,7 @@ body {
 }
 
 @media only screen and (max-width: 66.875em) {
-  /* line 405, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 409, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .about-setion__info {
     min-width: 0;
     max-width: 95vw;
@@ -1001,7 +1005,7 @@ body {
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 405, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 409, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .about-setion__info {
     text-align: center;
     font-size: 2.5rem;
@@ -1010,17 +1014,17 @@ body {
   }
 }
 
-/* line 423, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 427, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .about-setion__info:first-child {
   margin-bottom: 7rem;
 }
 
-/* line 427, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 431, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .about-setion__info:hover .about-setion__info-title {
   background-position: 0 -100%;
 }
 
-/* line 431, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 435, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .about-setion__info {
   width: 100%;
   transform: translateY(15%);
@@ -1029,13 +1033,13 @@ body {
   will-change: transform opacity;
 }
 
-/* line 439, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 443, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .about-setion__info.is-visible {
   transform: translateY(0%);
   opacity: 1;
 }
 
-/* line 444, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 448, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .about-setion__info-title {
   font-family: 'adoveFnt22-bold';
   font-size: 4rem;
@@ -1053,13 +1057,13 @@ body {
   text-decoration: none;
 }
 
-/* line 468, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 472, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .about-setion__info-text {
   width: 100%;
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 468, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 472, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .about-setion__info-text {
     font-size: 2.5rem;
     line-height: 4rem;
@@ -1067,7 +1071,7 @@ body {
   }
 }
 
-/* line 479, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 483, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .pros-section {
   display: flex;
   flex-direction: column;
@@ -1079,7 +1083,7 @@ body {
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 479, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 483, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section {
     background-color: #d8dde1;
     color: #000;
@@ -1087,12 +1091,12 @@ body {
   }
 }
 
-/* line 494, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 498, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .pros-section:hover > .pros-section-title {
   animation: border-flicker 2s linear infinite;
 }
 
-/* line 499, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 503, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .pros-section-title {
   font-family: 'adoveFnt22-bold';
   color: #4285f5;
@@ -1101,48 +1105,48 @@ body {
 }
 
 @media only screen and (max-width: 95em) {
-  /* line 499, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 503, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-title {
     font-size: 7rem;
   }
 }
 
 @media only screen and (max-width: 75em) {
-  /* line 499, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 503, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-title {
     font-size: 7rem;
   }
 }
 
 @media only screen and (max-width: 66.875em) {
-  /* line 499, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 503, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-title {
     font-size: 7rem;
   }
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 499, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 503, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-title {
     font-size: 5rem;
   }
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 499, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 503, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-title {
     font-size: 3rem;
   }
 }
 
-/* line 523, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 527, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .pros-section-list {
   display: flex;
   flex-direction: column;
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 523, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 527, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-list {
     display: flex;
     flex-direction: column;
@@ -1150,7 +1154,7 @@ body {
   }
 }
 
-/* line 532, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 536, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .pros-section-list__item {
   display: flex;
   align-items: center;
@@ -1162,57 +1166,57 @@ body {
 }
 
 @media only screen and (max-width: 95em) {
-  /* line 532, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 536, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-list__item {
     font-size: 3.5rem;
   }
 }
 
 @media only screen and (max-width: 75em) {
-  /* line 532, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 536, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-list__item {
     font-size: 3rem;
   }
 }
 
 @media only screen and (max-width: 66.875em) {
-  /* line 532, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 536, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-list__item {
     font-size: 3.5rem;
   }
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 532, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 536, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-list__item {
     font-size: 2.5rem;
   }
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 532, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 536, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-list__item {
     margin: 0;
     flex-direction: column-reverse;
     font-size: 2.6rem;
   }
-  /* line 561, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 565, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-list__item:last-child .pros-section-list__item-smile-outer {
     display: none;
   }
 }
 
-/* line 566, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 570, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .pros-section-list__item:hover .pros-section-list__item-smile-inner {
   color: #4285f5;
 }
 
-/* line 569, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 573, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .pros-section-list__item:hover .pros-section-list__item-smile-outer {
   transform: rotate(-25deg);
 }
 
-/* line 573, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 577, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .pros-section-list__item-smile-outer {
   position: relative;
   width: 6rem;
@@ -1224,7 +1228,7 @@ body {
 }
 
 @media only screen and (max-width: 66.875em) {
-  /* line 573, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 577, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-list__item-smile-outer {
     width: 4rem;
     height: 2rem;
@@ -1232,7 +1236,7 @@ body {
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 573, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 577, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-list__item-smile-outer {
     width: 4rem;
     height: 2rem;
@@ -1242,7 +1246,7 @@ body {
   }
 }
 
-/* line 596, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 600, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .pros-section-list__item-smile-inner {
   position: absolute;
   bottom: 0;
@@ -1256,7 +1260,7 @@ body {
 }
 
 @media only screen and (max-width: 66.875em) {
-  /* line 596, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 600, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-list__item-smile-inner {
     width: 4rem;
     height: 4rem;
@@ -1265,14 +1269,14 @@ body {
 }
 
 @media only screen and (max-width: 37.5em) {
-  /* line 596, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 600, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .pros-section-list__item-smile-inner {
     width: 4rem;
     height: 4rem;
   }
 }
 
-/* line 620, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 624, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .footer {
   width: 50%;
   margin-top: -10px;
@@ -1281,7 +1285,7 @@ body {
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 620, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 624, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .footer {
     width: 100vw;
     margin-bottom: 2rem;
@@ -1290,7 +1294,7 @@ body {
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 633, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 637, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .footer-logo {
     width: 56%;
     object-fit: contain;
@@ -1298,32 +1302,32 @@ body {
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 640, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 644, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .footer .smiley {
     width: 40%;
     object-fit: contain;
   }
 }
 
-/* line 648, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 652, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .desktop {
   display: block;
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 648, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 652, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .desktop {
     display: none;
   }
 }
 
-/* line 655, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+/* line 659, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
 .mobile {
   display: none;
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 655, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
+  /* line 659, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .mobile {
     display: block;
   }
