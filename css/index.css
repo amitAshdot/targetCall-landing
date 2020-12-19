@@ -1288,7 +1288,7 @@ body {
   /* line 624, ../../../../../../../../../../../../../Users/amit_ashdot/Desktop/שיעורי בית/Targetcall/landing-page/jobs/sass/layout/_homepage.scss */
   .footer {
     width: 100vw;
-    margin-bottom: 2rem;
+    margin-top: -2rem;
     display: flex;
   }
 }

@@ -630,7 +630,7 @@
 
   @include respond(tab-port) {
     width: 100vw;
-    margin-bottom: 2rem;
+    margin-top: -2rem;
     display: flex;
   }
 
