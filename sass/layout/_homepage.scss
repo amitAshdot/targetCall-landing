@@ -40,6 +40,10 @@
     object-position: 50%;
     height: 60rem;
   }
+  @include respond(phone-small) {
+    line-height: 4rem;
+    font-size: 2.5rem;
+  }
 
   .whiteBackground {
     background-color: $color-white;
@@ -138,13 +142,10 @@
     font-size: 7rem;
     line-height: 9rem;
     overflow: hidden;
-
-    & {
-      opacity: 0;
-      transform: translateY(50%);
-      transition: all 0.5s;
-      will-change: transform opacity;
-    }
+    opacity: 1;
+    transform: translateY(50%);
+    transition: all 0.5s;
+    will-change: transform opacity;
 
     &.is-visible {
       opacity: 1;
