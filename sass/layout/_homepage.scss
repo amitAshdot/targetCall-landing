@@ -430,31 +430,10 @@
       overflow: hidden;
       transition: background-position 275ms ease;
       text-decoration: none; // text decorations are clipped in WebKit browsers
-
-      // & {
-      //   transform: translateY(100%);
-      //   opacity: 0;
-      //   transition: all 0.5s;
-      //   will-change: transform opacity;
-      // }
-
-      // &.is-visible {
-      //   transform: translateY(0%);
-      //   opacity: 1;
-      // }
     }
 
     &-text {
       width: 100%;
-      // transform: scale(0);
-      // opacity: 0;
-      // transition: all 0.5s;
-      // will-change: scale opacity;
-
-      // &.is-visible {
-      //   transform: scale(1);
-      //   opacity: 1;
-      // }
 
       @include respond(phone) {
         font-size: 2.5rem;
@@ -478,13 +457,6 @@
     background-color: $color-grey-light-1;
     color: $color-black;
     padding: 6rem 1rem;
-  }
-
-  &:hover > &-title {
-    animation: border-flicker 2s linear infinite;
-    @include respond(phone) {
-      animation: none;
-    }
   }
 
   &-title {
