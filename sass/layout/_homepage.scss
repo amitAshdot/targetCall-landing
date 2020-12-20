@@ -160,6 +160,11 @@
       font-size: 3rem;
       line-height: 4rem;
       overflow: hidden;
+
+      &#first {
+        opacity: 1;
+        transform: translateY(0%);
+      }
     }
     @include respond(phone-small) {
       font-size: 2.3rem;

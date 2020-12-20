@@ -97,7 +97,7 @@
 
       <!-- LOCATION-SECTION START -->
       <div class="location-section">
-        <div class="location-section__text show-on-scroll">
+        <div class="location-section__text show-on-scroll" id="first">
           <p>חברת התקשורת המובילה בישראל</p>
           <p>מחפשת למוקד השירות הטכני באשדוד</p>
         </div>
@@ -318,7 +318,7 @@
     <script>
       // Helper function from: http://stackoverflow.com/a/7557433/274826
       const isElementInViewport = el => {
-        const pixFromElementTop = 0
+        const pixFromElementTop = 200
         // special bonus for those using jQuery
         if (typeof jQuery === 'function' && el instanceof jQuery) {
           el = el[0]
