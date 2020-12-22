@@ -220,10 +220,11 @@
   &-text {
     font-family: 'adoveFnt22';
     font-size: 7rem;
-    margin-bottom: 10rem;
+    margin-bottom: 13rem;
 
     @include respond(phone) {
       font-size: 4rem;
+      margin-bottom: 8rem;
     }
     @include respond(phone-small) {
       font-size: 3rem;
@@ -232,19 +233,25 @@
   &__images {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 30vw;
+
+    @include respond(small-desktop) {
+      width: 40vw;
+    }
+    @include respond(tab-land) {
+      width: 45vw;
+    }
+
+    @include respond(mini-desktop) {
+    }
+
+    @include respond(tab-port) {
+      width: 50vw;
+    }
+
     &-image {
       width: 100%;
-    }
-    &-text {
-      direction: ltr;
-      font-family: 'adoveFnt22-bold';
-      font-size: 7rem;
-      text-align: center;
-
-      @include respond(tab-port) {
-        font-size: 3rem;
-      }
+      align-self: center;
     }
   }
 }
