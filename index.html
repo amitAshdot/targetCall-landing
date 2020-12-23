@@ -86,7 +86,13 @@
       <!-- CONTACT-US-SECTION START -->
       <div class="contact-us-section" id="grey">
         <p class="contact-us-section-title">ליצירת קשר ותיאום ראיון</p>
-        <form class="form" id="form" method="post" accept-charset="utf-8">
+        <form
+          class="form"
+          id="bottom"
+          action="https://app.powerlink.co.il/web/webtoaccount.aspx"
+          method="post"
+          accept-charset="utf-8"
+        >
           <input
             type="hidden"
             id="uid"
@@ -94,24 +100,30 @@
             value="6B0A385F-2E47-4E78-A2BD-1725AD323582"
           />
           <input type="hidden" name="adname" id="adname" value="" />
+          <!-- location -->
           <input
             type="hidden"
             name="systemfield12"
             id="systemfield12"
             value="2"
+            class="systemfield12"
           />
+          <!-- site -->
           <input
             type="hidden"
             name="systemfield52"
             id="systemfield52"
             value="26"
+            class="systemfield52"
           />
           <input type="hidden" name="adsetname" id="adsetname" value="" />
+          <!-- from -->
           <input
             name="originatingleadcode"
             type="hidden"
             id="originatingleadcode"
             value="49"
+            class="originatingleadcode"
           />
           <input
             type="hidden"
@@ -225,7 +237,13 @@
           </div>
           <div class="left">
             <p class="contact-us-section-title">השאירו לנו פרטים</p>
-            <form class="form" id="bottom" method="post" accept-charset="utf-8">
+            <form
+              class="form"
+              id="bottom"
+              action="https://app.powerlink.co.il/web/webtoaccount.aspx"
+              method="post"
+              accept-charset="utf-8"
+            >
               <input
                 type="hidden"
                 id="uid"
@@ -239,6 +257,7 @@
                 name="systemfield12"
                 id="systemfield12"
                 value="2"
+                class="systemfield12"
               />
               <!-- site -->
               <input
@@ -246,6 +265,7 @@
                 name="systemfield52"
                 id="systemfield52"
                 value="26"
+                class="systemfield52"
               />
               <input type="hidden" name="adsetname" id="adsetname" value="" />
               <!-- from -->
@@ -254,6 +274,7 @@
                 type="hidden"
                 id="originatingleadcode"
                 value="49"
+                class="originatingleadcode"
               />
               <input
                 type="hidden"
@@ -345,6 +366,19 @@
 
       // Call the loop for the first time
       loop();
+
+      //get url params
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const locationNum = urlParams.get("locationNum");
+      const site = urlParams.get("site");
+      const from = urlParams.get("from");
+      let inputLocation = document.getElementsByClassName("systemfield12");
+      let inputSite = document.getElementsByClassName("systemfield52");
+      let inputFrom = document.getElementsByClassName("originatingleadcode");
+      inputLocation.value = locationNum;
+      inputSite.value = site;
+      inputFrom.value = from;
     </script>
   </body>
 </html>
