@@ -376,9 +376,14 @@
       let inputLocation = document.getElementsByClassName("systemfield12");
       let inputSite = document.getElementsByClassName("systemfield52");
       let inputFrom = document.getElementsByClassName("originatingleadcode");
-      inputLocation.value = locationNum;
-      inputSite.value = site;
-      inputFrom.value = from;
+
+      let locationArray = [...inputLocation];
+      let siteArray = [...inputSite];
+      let fromArray = [...inputFrom];
+      debugger;
+      locationArray.map(item => (item.value = locationNum));
+      siteArray.map(item => (item.value = site));
+      fromArray.map(item => (item.value = from));
     </script>
   </body>
 </html>
