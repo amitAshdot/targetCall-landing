@@ -114,6 +114,12 @@
             value="49"
           />
           <input
+            type="hidden"
+            id="retURL"
+            name="retURL"
+            value="http://targetcall-career.co.il/campaign/asdod_technical_support/thankyou.html"
+          />
+          <input
             name="accountname"
             id="accountname"
             type="text"
@@ -227,12 +233,14 @@
                 value="6B0A385F-2E47-4E78-A2BD-1725AD323582"
               />
               <input type="hidden" name="adname" id="adname" value="" />
+              <!-- location -->
               <input
                 type="hidden"
                 name="systemfield12"
                 id="systemfield12"
                 value="2"
               />
+              <!-- site -->
               <input
                 type="hidden"
                 name="systemfield52"
@@ -240,11 +248,18 @@
                 value="26"
               />
               <input type="hidden" name="adsetname" id="adsetname" value="" />
+              <!-- from -->
               <input
                 name="originatingleadcode"
                 type="hidden"
                 id="originatingleadcode"
                 value="49"
+              />
+              <input
+                type="hidden"
+                id="retURL"
+                name="retURL"
+                value="http://targetcall-career.co.il/campaign/asdod_technical_support/thankyou.html"
               />
               <input
                 name="accountname"
@@ -290,12 +305,12 @@
     <script>
       // Helper function from: http://stackoverflow.com/a/7557433/274826
       const isElementInViewport = el => {
-        const pixFromElementTop = 1
+        const pixFromElementTop = 1;
         // special bonus for those using jQuery
-        if (typeof jQuery === 'function' && el instanceof jQuery) {
-          el = el[0]
+        if (typeof jQuery === "function" && el instanceof jQuery) {
+          el = el[0];
         }
-        let rect = el.getBoundingClientRect()
+        let rect = el.getBoundingClientRect();
         return (
           (rect.top + pixFromElementTop <= 0 && rect.bottom >= 0) ||
           (rect.bottom + pixFromElementTop >=
@@ -305,36 +320,31 @@
           (rect.top + pixFromElementTop >= 0 &&
             rect.bottom + pixFromElementTop <=
               (window.innerHeight || document.documentElement.clientHeight))
-        )
-        // return (
-        // (window.innerHeight || document.documentElement.clientHeight) &&
-        // rect.top - rect.height <= 0 &&
-        // rect.bottom >= 0
-        // )
-      }
+        );
+      };
       // Detect request animation frame
       let scroll =
         window.requestAnimationFrame ||
         // IE Fallback
-        function (callback) {
-          window.setTimeout(callback, 1000 / 60)
-        }
-      let elementsToShow = document.querySelectorAll('.show-on-scroll')
+        function(callback) {
+          window.setTimeout(callback, 1000 / 60);
+        };
+      let elementsToShow = document.querySelectorAll(".show-on-scroll");
 
       const loop = () => {
-        Array.prototype.forEach.call(elementsToShow, function (element) {
+        Array.prototype.forEach.call(elementsToShow, function(element) {
           if (isElementInViewport(element)) {
-            element.classList.add('is-visible')
+            element.classList.add("is-visible");
           } else {
-            element.classList.remove('is-visible')
+            element.classList.remove("is-visible");
           }
-        })
+        });
 
-        scroll(loop)
-      }
+        scroll(loop);
+      };
 
       // Call the loop for the first time
-      loop()
+      loop();
     </script>
   </body>
 </html>
