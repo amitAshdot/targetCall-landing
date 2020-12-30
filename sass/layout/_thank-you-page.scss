@@ -14,7 +14,7 @@
   padding: 16rem 3rem;
   @include respond(tab-port) {
     flex-direction: column;
-    padding: 7rem 3rem;
+    padding: 5rem 3rem;
   }
 
   &__right {
@@ -33,7 +33,7 @@
 
     &__top {
       display: flex;
-      align-items: center;
+      align-items: flex-end;
       justify-content: flex-end;
       margin-bottom: 4rem;
 
@@ -41,35 +41,57 @@
         justify-content: center;
         width: 50%;
         margin-bottom: 0;
+        margin-right: -6rem;
       }
       @include respond(phone) {
-        width: 60%;
+        width: 70%;
         justify-content: center;
+        margin-right: -3rem;
       }
 
       &-image {
-        width: 30%;
+        width: 25%;
+        margin-left: 3rem;
+        @include respond(mini-desktop) {
+          width: 15%;
+          margin-left: 1rem;
+        }
+
+        @include respond(tab-port) {
+          width: 15%;
+          margin-left: 1rem;
+        }
+        @include respond(phone) {
+          width: 15%;
+          justify-content: end;
+          align-items: flex-end;
+          margin-right: -3rem;
+        }
+        @include respond(phone-smal) {
+          width: 15%;
+          margin-left: 1rem;
+        }
       }
       &-text {
         color: $color-white;
-        font-family: 'adoveFnt22-bold';
+        font-family: "adoveFnt22-bold";
         font-size: 4.5vw;
         line-height: 4.3vw;
         overflow: hidden;
 
-        @include respond(small-desktop) {
-          font-size: 8rem;
-          line-height: 8rem;
-        }
-        @include respond(tab-land) {
-          font-size: 8rem;
-          line-height: 8rem;
-        }
+        // @include respond(small-desktop) {
+        //   font-size: 8rem;
+        //   line-height: 8rem;
+        // }
+        // @include respond(tab-land) {
+        //   font-size: 8rem;
+        //   line-height: 8rem;
+        // }
 
-        @include respond(mini-desktop) {
-          font-size: 8rem;
-          line-height: 8rem;
-        }
+        // @include respond(mini-desktop) {
+        //   font-size: 8rem;
+        //   line-height: 8rem;
+        // }
 
         @include respond(tab-port) {
           font-size: 4rem;
@@ -87,7 +109,7 @@
 
     &__bottom {
       &-text {
-        font-family: 'adoveFnt22-bold';
+        font-family: "adoveFnt22-bold";
         font-size: 4.5vw;
         line-height: 4.3vw;
 
@@ -112,7 +134,7 @@
   &__left {
     display: flex;
     align-items: flex-end;
-    font-family: 'adoveFnt22-bold';
+    font-family: "adoveFnt22-bold";
 
     @include respond(tab-port) {
       align-self: center;
@@ -140,7 +162,7 @@
   flex-direction: column;
   align-items: center;
   padding: 10rem 3rem;
-  font-family: 'adoveFnt22-bold';
+  font-family: "adoveFnt22-bold";
 
   @include respond(small-desktop) {
   }
@@ -153,7 +175,7 @@
   @include respond(tab-port) {
   }
   @include respond(phone) {
-    padding: 7rem 3rem;
+    padding: 5rem 1rem;
   }
   @include respond(phone-small) {
   }
@@ -177,7 +199,7 @@
       margin-bottom: 0rem;
     }
     @include respond(phone-small) {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
     }
   }
   &-button {
@@ -195,13 +217,13 @@
     @include respond(phone) {
       height: auto;
       font-size: 3rem;
-      width: 50%;
+      width: 60%;
       padding: 0.5rem;
-      margin-top: 3rem;
+      margin-top: 2rem;
       margin-bottom: 5rem;
     }
     @include respond(phone-small) {
-      font-size: 2rem;
+      font-size: 2.8rem;
     }
 
     &:link {
@@ -218,7 +240,7 @@
     }
   }
   &-text {
-    font-family: 'adoveFnt22';
+    font-family: "adoveFnt22";
     font-size: 7rem;
     margin-bottom: 13rem;
 
